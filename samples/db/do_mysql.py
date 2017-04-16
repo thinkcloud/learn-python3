@@ -27,5 +27,5 @@ cursor.execute('select * from user where id = %s', ('1',))
 values = cursor.fetchall()
 print(values)
 # 关闭Cursor和Connection:
-cursor.close()
+cursor.close() #test
 conn.close()
